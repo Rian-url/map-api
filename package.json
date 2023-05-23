@@ -3,12 +3,20 @@
     "version": "3.0.0",
     "dependencies": {
         "cordova-plugin-splashscreen": "6.0.0",
-        "monaca-plugin-monaca-core": "3.3.1"
+        "monaca-plugin-monaca-core": "3.3.1",
+        "cordova-plugin-device-orientation": "2.0.1",
+        "cordova-plugin-device-motion": "2.0.1",
+        "cordova-plugin-whitelist": "1.3.5",
+        "cordova-plugin-geolocation": "4.1.0"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-splashscreen": {},
-            "monaca-plugin-monaca-core": {}
+            "monaca-plugin-monaca-core": {},
+            "cordova-plugin-device-orientation": {},
+            "cordova-plugin-device-motion": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-geolocation": {}
         }
     },
     "scripts": {
